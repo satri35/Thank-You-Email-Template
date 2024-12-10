@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #fafafa;
+            color: #333333;
+        }
+        .email-container {
+            max-width: 750px;
+            margin: 50px auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .header {
+            background-color: #0066cc;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 36px;
+            font-weight: 700;
+            margin: 0;
+        }
+        .header p {
+            font-size: 18px;
+            font-weight: 300;
+            margin: 10px 0 0;
+        }
+        .content {
+            padding: 40px 30px;
+            text-align: center;
+        }
+        .content h2 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #333333;
+        }
+        .content p {
+            font-size: 16px;
+            color: #555555;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .order-summary {
+            display: flex;
+            justify-content: space-between;
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        .order-summary div {
+            flex: 1;
+        }
+        .order-summary h3 {
+            font-size: 20px;
+            color: #0066cc;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .order-summary p {
+            font-size: 16px;
+            color: #333333;
+            margin: 5px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            padding: 16px 40px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 25px;
+            margin-top: 30px;
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #004d99;
+        }
+        .footer {
+            background-color: #f1f1f1;
+            color: #777777;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 14px;
+        }
+        .footer p {
+            margin: 10px 0;
+        }
+        .footer a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin: 0 15px;
+            font-size: 20px;
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            color: #004d99;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Thank You for Your Purchase!</h1>
+            <p>Your order has been confirmed</p>
+        </div>
+
+        <!-- Content Section -->
+        <div class="content">
+            <h2>Dear [Customer's Name],</h2>
+            <p>
+                Thank you for shopping with us! We're excited to let you know that your order has been successfully processed. We're preparing it for shipment and will notify you when it’s on its way.
+            </p>
+            <p>
+                We hope you love your new purchase! In the meantime, here’s a quick summary of your order details.
+            </p>
+
+            <!-- Order Summary Section -->
+            <div class="order-summary">
+                <div>
+                    <h3>Order Number</h3>
+                    <p>[Order Number]</p>
+                </div>
+                <div>
+                    <h3>Total</h3>
+                    <p>$[Order Total]</p>
+                </div>
+                <div>
+                    <h3>Expected Delivery</h3>
+                    <p>[Estimated Delivery Date]</p>
+                </div>
+            </div>
+
+            <!-- CTA Button -->
+            <a href="[Track Order Link]" class="cta-button">Track Your Order</a>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>Need help? Feel free to <a href="mailto:support@yourstore.com">contact us</a></p>
+            <p>Follow us on social media:</p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+            </div>
+            <p>&copy; 2024 [Your Company Name]. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
